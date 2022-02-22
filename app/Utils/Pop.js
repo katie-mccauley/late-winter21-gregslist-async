@@ -59,7 +59,7 @@ export class Pop {
    */
   static error(error) {
     // @ts-ignore
-    let message = error.response?.data || error.message
+    let message = error.response?.data.error || error.message
     Pop.toast(message, 'error')
   }
 }

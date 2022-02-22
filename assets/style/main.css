@@ -14102,13 +14102,19 @@ main {
 }
 
 main > .container-fluid, main > .container-sm, main > .container-md, main > .container-lg, main > .container-xl, main > .container-xxl {
-  height: 89vh;
+  min-height: 89vh;
 }
 
 .color-box {
   height: 1em;
   width: 1em;
   border: 1px solid black;
+}
+
+.object-fit-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=main.css.map */
